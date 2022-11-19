@@ -1,0 +1,87 @@
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+display: flex;
+justify-content: center;
+}
+
+.box2 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.artist {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 90%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.butonlar > button {
+  padding: 1px 5px 1px 5px;
+}
+
+.box3 {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  width: 90%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2px;
+}
+
+.link1 {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  background-color: #7de5db;
+  width: 36.92%;
+}
+
+.link2 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #6fccc3;
+  width: 19.92%;
+  font-size: 13px;
+  margin-left: 2px;
+  color: blue;
+}
+
+.link3 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #61b3ab;
+  width: 42.92%;
+  margin-left: 2px;
+  font-size: 13px;
+}
+
+.link3 input {
+  width: 23%;
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+}
+
+.google {
+  font-size: small;
+  margin-top: 16px;
+}
